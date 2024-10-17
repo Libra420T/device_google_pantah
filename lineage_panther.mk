@@ -19,6 +19,29 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
 PRODUCT_NAME := lineage_panther
 
+# Build Flags
+EVEREST_BUILD_TYPE := OFFICIAL
+EVEREST_MAINTAINER := Libra420T
+
+# UDFPS
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ICONS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
+# Build Launcher3 in GAPPS (default is Pixel Launcher)
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
+
+# Quick switch (add more than one Launcher in build)
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
+# Gapps
+WITH_GAPPS := true
+WITH_GMS := true
+
+#Xtras
+TARGET_IS_PIXEL := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
